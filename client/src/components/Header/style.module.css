@@ -1,0 +1,56 @@
+.header{
+    margin: 0;
+
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.profileAva{
+    width: 90px;
+    height: 90px;
+
+    margin-left: 10px;
+
+    border-radius: 50%;
+
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    gap: 70px;
+
+    margin-right: 100px;
+}
+
+.nav li{
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    transition: color .3s ease-in-out;
+}
+
+.nav li:hover{
+    color: rgb(9, 190, 235);
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+
+    background-color: black;
+
+    margin: 30px auto 0 auto;
+
+    transition: width .3s ease-in-out;
+
+    border-radius: 7px;
+}
